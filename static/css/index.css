@@ -13,8 +13,20 @@ body {
     background-color: #FAFAFA;
 }
 
-.l1-left .logo{
-    margin-bottom: 40px;
+.l1-left .info{
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.l1-left .reach-us {
+    background-color: #0A14C5;
+    color: #fff;
+}
+
+.l1-left footer{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
 }
 
 .l1-right {
