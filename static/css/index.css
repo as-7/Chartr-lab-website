@@ -8,47 +8,13 @@ body {
 }
 
 .l1-left {
+    position: fixed;
+    left: 0;
+
     height: 100%;
     overflow: hidden;
     background-color: #FAFAFA;
 }
-
-.l1-left .info{
-    margin-bottom: 80px;
-    margin-top: 80px;
-}
-
-.l1-left .reach-us {
-    background-color: #0A14C5;
-    color: #fff;
-}
-
-.l1-left footer{
-    width: 100%;
-    position: absolute;
-    bottom: 10px;
-}
-
-.l1-right {
-    height: 100%;
-    background-color: #ffffff;
-    color: #575656;
-}
-
-.l1-right * {
-    color: #575656;
-}
-
-.l1-right .navbar-nav {
-    width: 100%;
-    text-align: center;
-}
-
-.l1-right .navbar-nav > li {
-    float: none;
-    display: inline-block;
-}
-
 
 .outer {
     display: table;
@@ -69,4 +35,61 @@ body {
     margin-right: auto;
     width: 400px;
     /*whatever width you want*/
+}
+
+.l1-left .info {
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.l1-left .reach-us {
+    background-color: #0A14C5;
+    color: #fff;
+}
+
+.l1-left footer {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+
+/* L1 Right */
+
+.l1-right {
+    position: absolute;
+    right: 0;
+
+    height: 100%;
+    background-color: #ffffff;
+    color: #575656;
+}
+
+.l1-right * {
+    color: #575656;
+}
+
+.l1-right .navbar-nav {
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.l1-right .navbar-nav > li {
+    float: none;
+    display: inline-block;
+}
+
+.l1-right > div {
+    background-color: #FAFAFA;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .l1-left{
+        position: relative;
+    }
+    .l1-right{
+        position: relative;
+    }
 }
