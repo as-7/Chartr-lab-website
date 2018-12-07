@@ -5,7 +5,11 @@ html, body {
 
 body {
     color: #aaa;
+    font-family: 'Karla', sans-serif;
+}
 
+.active {
+    font-weight: 700;
 }
 
 .l1-left {
@@ -59,7 +63,6 @@ body {
 .l1-right {
     position: absolute;
     right: 0;
-
     height: 100%;
     background-color: #ffffff;
     color: #575656;
@@ -82,16 +85,56 @@ body {
 }
 
 .l1-right > div {
-    background-color: #FAFAFA;
-    height: 200px;
-    margin-bottom: 20px;
+    /*background-color: #FAFAFA;*/
+    /*height: 200px;*/
+    /*margin-bottom: 20px;*/
 }
+
+
+.home.main {
+    text-align: center;
+}
+
+.home.main .title{
+    padding: 12px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    opacity: 0.9;
+    font-size: 56px;
+    font-weight: 700;
+    color: #575656;
+    letter-spacing: 1.6px;
+    line-height: 60px;
+}
+
+.home.main img {
+    width: 80px;
+}
+
+.home.main .content {
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    text-align: justify;
+    padding-left: 40px;
+    font-size: 16px;
+
+}
+
+.home.main .l3{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
 
 
 /* home */
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
+    font-family: 'Rubik', sans-serif;
 }
+
 
 
 @media only screen and (max-width: 768px) {
@@ -100,5 +143,9 @@ h1, h2, h3, h4, h5, h6 {
     }
     .l1-right{
         position: relative;
+    }
+
+    .home.main .content {
+        text-align: center;
     }
 }

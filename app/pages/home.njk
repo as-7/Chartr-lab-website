@@ -5,8 +5,31 @@
 <!-- Creating the navigation with activePage = 'home' -->
 {% import 'macros/nav-macro.njk' as nav %}
 
-{{nav.active('contact')}}
+{{nav.active('home')}}
 
-<h2>Home</h2>
-
+<div class="home main l2">
+    <div class="col-md-8 col-md-offset-2">
+        <h1 class="title">Shared Office Commute</h1>
+    </div>
+    <div class="col-md-10 col-md-offset-1 l3 text-center">
+        <div class="col-md-5 img-box">
+            <img src="static/img/route.png"/>
+        </div>
+        <div class="col-md-7 content">
+            Routes optimised for shortest travel time.
+        </div>
+    </div>
+    <div class="col-md-10 col-md-offset-1 l3">
+        <div class="col-md-5 img-box">
+            <img src="static/img/clock.png"/>
+        </div>
+        <div class="col-md-7 content">Schedule tailored for you.</div>
+    </div>
+    <div class="col-md-10 col-md-offset-1 l3">
+        <div class="col-md-5 img-box">
+            <img src="static/img/check.png"/>
+        </div>
+        <div class="col-md-7 content">Find a seat, every time.</div>
+    </div>
+</div>
 {% endblock %}
