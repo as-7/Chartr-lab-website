@@ -1,0 +1,31 @@
+{
+  "name": "chartr_website",
+  "version": "1.0.0",
+  "description": "Frontend website for chartr.in",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://atul_jain@bitbucket.org/traffickarma/chartr.in-website.git"
+  },
+  "author": "atulj.com",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/traffickarma/chartr.in-website#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1",
+    "gulp-useref": "^3.1.6",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "gulp-cssnano": "^2.1.3"
+  }
+}

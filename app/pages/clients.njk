@@ -1,0 +1,12 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+<!-- Creating the navigation with activePage = 'home' -->
+{% import 'macros/nav-macro.njk' as nav %}
+
+{{nav.active('clients')}}
+
+<h2>Clients</h2>
+
+{% endblock %}

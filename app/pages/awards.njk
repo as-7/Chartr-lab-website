@@ -1,0 +1,12 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+<!-- Creating the navigation with activePage = 'home' -->
+{% import 'macros/nav-macro.njk' as nav %}
+
+{{nav.active('awards')}}
+
+<h2>Awards</h2>
+
+{% endblock %}

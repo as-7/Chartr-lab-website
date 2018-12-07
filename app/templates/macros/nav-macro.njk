@@ -1,0 +1,30 @@
+{% macro active(activePage='home') %}
+<!-- Repeat for about and contact -->
+
+<nav class="navbar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="glyphicon glyphicon-menu-hamburger navbar-toggle collapsed"
+                    data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="{%if activePage == 'home' %} active {% endif %}"><a href="/">Home</a></li>
+                <li class="{%if activePage == 'routes' %} active {% endif %}"><a href="/routes">Routes</a></li>
+                <li class="{%if activePage == 'clients' %} active {% endif %}"><a href="clients">Clients</a></li>
+                <li class="{%if activePage == 'awards' %} active {% endif %}"><a href="/awards">Awards</a></li>
+                <li class="{%if activePage == 'about' %} active {% endif %}"><a href="/about">About</a></li>
+                <li class="{%if activePage == 'contact' %} active {% endif %}"><a href="/contact">Contact</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+
+{% endmacro %}
