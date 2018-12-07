@@ -87,6 +87,13 @@ body {
     margin-bottom: 20px;
 }
 
+
+/* home */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+
 @media only screen and (max-width: 768px) {
     .l1-left{
         position: relative;

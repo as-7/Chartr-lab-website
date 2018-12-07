@@ -5,18 +5,6 @@ var useref = require('gulp-useref');
 var nunjucksRender = require('gulp-nunjucks-render');
 
 
-gulp.task('nunjucks', function() {
-    // Gets .html and .nunjucks files in pages
-    return gulp.src('app/pages/**/*.+(html|njk|nunjucks)')
-    // Renders template with nunjucks
-        .pipe(nunjucksRender({
-            path: ['app/templates']
-        }))
-        // output files in app folder
-        .pipe(gulp.dest('app'))
-});
-
-
 gulp.task('useref', function () {
     return gulp.src('app/*.html')
         .pipe(useref())
@@ -66,9 +54,38 @@ gulp.task('useref', function () {
         .pipe(gulp.dest('dist/'))
 });
 
+
+gulp.task('hello', function () {
+    console.log("Hello!");
+});
+
+gulp.task('sass', function () {
+    return gulp.src('app/static/**/*.scss')
+        .pipe(sass()) //sass to css
+        .pipe(gulp.dest('app/static'))
+        .pipe(browserSync.reload({
+            stream: true
+        }))
+});
+
+
+gulp.task('nunjucks', function () {
+    // Gets .html and .nunjucks files in pages
+    return gulp.src('app/pages/**/*.+(html|njk|nunjucks)')
+    // Renders template with nunjucks
+        .pipe(nunjucksRender({
+            path: ['app/templates']
+        }))
+        // output files in app folder
+        .pipe(gulp.dest('app'))
+        .pipe(browserSync.reload({
+            stream: true
+        }))
+});
+
 gulp.task('browserSync', function () {
     browserSync.init({
-        files: ['home.html','about.html'],
+        files: ['home.html', 'about.html'],
         server: {
             baseDir: 'app',
             index: 'home.html',
@@ -79,6 +96,18 @@ gulp.task('browserSync', function () {
     })
 });
 
+gulp.task('default', function (callback) {
+    runSequence(['nunjucks', 'sass', 'browserSync', 'watch'],
+        callback
+    )
+});
+
+gulp.task('watch', ['browserSync', 'sass', 'nunjucks'], function () {
+    gulp.watch('app/static/**/*.scss', ['sass']);
+    gulp.watch('app/**/*.njk', ['nunjucks']);
+    gulp.watch('app/*.html', browserSync.reload);
+    gulp.watch('app/static/js/**/*.js', browserSync.reload);
+});
 
 gulp.task('build', function (callback) {
     runSequence('clean:dist',
@@ -88,29 +117,3 @@ gulp.task('build', function (callback) {
 });
 
 
-gulp.task('hello', function () {
-    console.log("Hello!");
-});
-
-
-gulp.task('sass', function () {
-    return gulp.src('app/static/**/*.scss')
-        .pipe(sass()) //sass to css
-        .pipe(gulp.dest('app/static/'))
-        .pipe(browserSync.reload({
-            stream: true
-        }))
-});
-
-gulp.task('default', function (callback) {
-    runSequence(['sass', 'nunjucks', 'browserSync', 'watch'],
-        callback
-    )
-});
-
-gulp.task('watch', ['browserSync', 'sass', 'nunjucks'], function () {
-    gulp.watch('app/static/**/*.scss', ['sass']);
-    gulp.watch('app/**/*.njk', browserSync.reload);
-    gulp.watch('app/*.html', browserSync.reload);
-    gulp.watch('app/static/js/**/*.js', browserSync.reload);
-});
