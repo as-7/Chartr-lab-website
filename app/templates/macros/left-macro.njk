@@ -1,0 +1,11 @@
+{% macro left_main(activePage='home') %}
+<!-- Repeat for about and contact -->
+
+{% if activePage =='routes'%}
+
+{% else %}
+    {% include "partials/left-main.njk" %}
+{% endif %}
+
+
+{% endmacro %}

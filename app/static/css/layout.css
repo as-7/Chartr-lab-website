@@ -9,7 +9,7 @@ body {
     font-size: 18px;
 }
 
-p, a, div{
+p, a, div {
     font-size: 18px;
 }
 
@@ -95,12 +95,11 @@ p, a, div{
     /*margin-bottom: 20px;*/
 }
 
-
 .home.main {
     text-align: center;
 }
 
-.home.main .title{
+.title {
     padding: 12px;
     margin-bottom: 40px;
     margin-top: 40px;
@@ -125,12 +124,44 @@ p, a, div{
 
 }
 
-.home.main .l3{
+.home.main .l3 {
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
+.clients img {
+    width: 120px;
+}
 
+.clients img.nagra {
+    opacity: 0.5;
+}
+
+.clients .l3{
+    padding-bottom: 36px;
+    padding-top: 36px;
+}
+
+.partners img {
+    width: 140px
+}
+.partners .l3{
+    padding-bottom: 36px;
+    padding-top: 36px;
+}
+.img-light {
+    opacity: 0.5;
+}
+
+.img-light-7 {
+    opacity: 0.7;
+}
+.img-light-8 {
+    opacity: 0.8;
+}
+.img-light-9 {
+    opacity: 0.9;
+}
 
 
 /* home */
@@ -139,13 +170,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Rubik', sans-serif;
 }
 
-
-
 @media only screen and (max-width: 768px) {
-    .l1-left{
+    .l1-left {
         position: relative;
     }
-    .l1-right{
+
+    .l1-right {
         position: relative;
     }
 

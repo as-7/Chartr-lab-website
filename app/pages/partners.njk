@@ -1,0 +1,35 @@
+{% extends "layout.njk" %}
+
+{% block left %}
+{% import 'macros/left-macro.njk' as leftmacro%}
+{{leftmacro.left_main()}}
+{% endblock %}
+
+{% block content %}
+
+<!-- Creating the navigation with activePage = 'home' -->
+{% import 'macros/nav-macro.njk' as nav %}
+
+{{nav.active('partners')}}
+
+<div class="partners main l2">
+    <div class="col-md-8 col-md-offset-2">
+        <h1 class="title">Partners</h1>
+    </div>
+    <div class="col-md-4 col-md-offset-2 l3 text-center">
+        <img class="img-light-8" src="static/img/clients/bmtc.png"/>
+    </div>
+    <div class="col-md-4 l3 text-center">
+        <img class="img-light-7" src="static/img/clients/gok.png"/>
+    </div>
+    <div class="col-md-4 col-md-offset-2 l3 text-center">
+        <img class="img-light" src="static/img/clients/startup-karnataka.png"/>
+    </div>
+    <div class="col-md-4 l3 text-center">
+        <img class="img-light" src="static/img/clients/dtc.png"/>
+    </div>
+
+
+</div>
+
+{% endblock %}

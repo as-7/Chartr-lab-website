@@ -1,12 +1,19 @@
 {% extends "layout.njk" %}
 
+
+{% block left %}
+{% import 'macros/left-macro.njk' as leftmacro%}
+{{leftmacro.left_main()}}
+{% endblock %}
+
 {% block content %}
-
-<!-- Creating the navigation with activePage = 'home' -->
 {% import 'macros/nav-macro.njk' as nav %}
-
 {{nav.active('contact')}}
 
-<h2>Contact</h2>
+<div class="contact main l2">
+    <div class="col-md-8 col-md-offset-2">
+        <h1 class="title">Contact</h1>
+    </div>
+</div>
 
 {% endblock %}

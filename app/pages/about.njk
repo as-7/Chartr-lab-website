@@ -1,5 +1,10 @@
 {% extends "layout.njk" %}
 
+{% block left %}
+{% import 'macros/left-macro.njk' as leftmacro%}
+{{leftmacro.left_main()}}
+{% endblock %}
+
 {% block content %}
 
 <!-- Creating the navigation with activePage = 'home' -->
@@ -7,6 +12,11 @@
 
 {{nav.active('about')}}
 
-<h2>About</h2>
+<div class="about main l2">
+    <div class="col-md-8 col-md-offset-2">
+        <h1 class="title">About</h1>
+    </div>
+
+</div>
 
 {% endblock %}
