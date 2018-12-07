@@ -6,6 +6,11 @@ html, body {
 body {
     color: #aaa;
     font-family: 'Karla', sans-serif;
+    font-size: 18px;
+}
+
+p, a, div{
+    font-size: 18px;
 }
 
 .active {
@@ -45,6 +50,7 @@ body {
 .l1-left .info {
     margin-bottom: 80px;
     margin-top: 80px;
+    font-size: 20px;
 }
 
 .l1-left .reach-us {
@@ -81,7 +87,6 @@ body {
 .l1-right .navbar-nav > li {
     float: none;
     display: inline-block;
-    font-size: 16px;
 }
 
 .l1-right > div {
@@ -113,11 +118,10 @@ body {
 
 .home.main .content {
     height: 100px;
-    line-height: 100px;
+    padding-top: 20px;
     vertical-align: middle;
     text-align: justify;
     padding-left: 40px;
-    font-size: 16px;
 
 }
 
