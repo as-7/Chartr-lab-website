@@ -2,8 +2,7 @@
 
 
 {% block left %}
-{% import 'macros/left-macro.njk' as leftmacro%}
-{{leftmacro.left_main()}}
+{% include "partials/left-main.njk" %}
 {% endblock %}
 
 {% block content %}

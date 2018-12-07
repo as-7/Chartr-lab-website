@@ -2,8 +2,7 @@
 
 
 {% block left %}
-{% import 'macros/left-macro.njk' as leftmacro%}
-{{leftmacro.left_main()}}
+{% include "partials/left-main.njk" %}
 {% endblock %}
 
 {% block content %}
@@ -13,6 +12,7 @@
 <div class="contact main l2">
     <div class="col-md-8 col-md-offset-2">
         <h1 class="title">Contact</h1>
+        <p class="text-center">Reach us at hello@chartr.in</p>
     </div>
 </div>
 

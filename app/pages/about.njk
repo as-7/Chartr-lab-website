@@ -1,8 +1,7 @@
 {% extends "layout.njk" %}
 
 {% block left %}
-{% import 'macros/left-macro.njk' as leftmacro%}
-{{leftmacro.left_main()}}
+{% include "partials/left-main.njk" %}
 {% endblock %}
 
 {% block content %}
@@ -15,7 +14,24 @@
 <div class="about main l2">
     <div class="col-md-8 col-md-offset-2">
         <h1 class="title">About</h1>
+        <div class="col-md-10 col-md-offset-1">
+            <p class="elements">Chartr is an innovative approach to make office commutes convenient and affordable. Our
+                data driven collaboration platform works with BMTC, private operators and cabs to deliver customized
+                routes, assured seats and low prices.<br></p>
+            <p style="margin-top:30px;font-size:22px;" id="elements"><b>Why Us.</b></p>
+            <div style="margin-top:16px;">
+                <p class="elements" style="line-height: 32px;
+"><b>*</b> Customized routes<br></p>
+                <p class="elements" style="line-height: 32px;
+"><b>*</b> Flexible timings<br></p>
+                <p class="elements" style="line-height: 32px;
+"><b>*</b> Near door to door transport<br></p>
+                <p class="elements" style="line-height: 32px;
+"><b>*</b> Cheaper than pool commute<br></p>
+            </div>
+        </div>
     </div>
+
 
 </div>
 

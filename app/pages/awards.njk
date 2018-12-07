@@ -2,8 +2,7 @@
 
 
 {% block left %}
-{% import 'macros/left-macro.njk' as leftmacro%}
-{{leftmacro.left_main()}}
+{% include "partials/left-main.njk" %}
 {% endblock %}
 
 {% block content %}
@@ -16,6 +15,12 @@
 <div class="awards main l2">
     <div class="col-md-8 col-md-offset-2">
         <h1 class="title">Awards</h1>
+        <div class="col-md-10 col-md-offset-1">
+
+            <p class="text-justify">Chartr was recently adjudged as one of the one top startups at the <a
+                    href="http://www.call5.impact-karnataka.org" target="_blank">Grand Challenge Karnataka'18</a> for
+                its innovative idea to reduce the traffic congestion problems in Bengaluru.</p>
+        </div>
     </div>
 
 </div>

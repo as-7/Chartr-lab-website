@@ -11,6 +11,15 @@ body {
 
 p, a, div {
     font-size: 18px;
+
+}
+a {
+    text-decoration: none;
+}
+
+.reach-us a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .active {
@@ -56,6 +65,7 @@ p, a, div {
 .l1-left .reach-us {
     background-color: #0A14C5;
     color: #fff;
+    font-size: 18px;
 }
 
 .l1-left footer {
@@ -129,6 +139,20 @@ p, a, div {
     margin-bottom: 40px;
 }
 
+.l1 {
+    overflow: hidden;
+
+}
+.l1-left{
+    padding: 0;
+}
+
+.l1-left .map {
+    display: block;
+    margin: 0;
+    width: 120%;
+}
+
 .clients img {
     width: 120px;
 }
@@ -163,6 +187,9 @@ p, a, div {
     opacity: 0.9;
 }
 
+.about .elements {
+    text-align: justify;
+}
 
 /* home */
 h1, h2, h3, h4, h5, h6 {
