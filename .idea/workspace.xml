@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d29b0ca-81bd-402f-8620-ecc57022f535" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/static/img/team/t1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/team/t2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/team/t3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/awards.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/awards.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/clients.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/clients.html" afterDir="false" />
@@ -12,14 +14,12 @@
       <change beforePath="$PROJECT_DIR$/app/pages/about.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/about.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/pages/awards.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/awards.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/pages/clients.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/clients.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/contact.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/contact.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/home.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/home.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/partners.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/partners.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/pages/routes.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/routes.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/partners.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/partners.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/static/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/partials/left-main.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/partials/left-main.njk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/layout.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/layout.njk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/macros/nav-macro.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/macros/nav-macro.njk" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,8 +34,10 @@
     <session id="1238214858">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -43,45 +45,45 @@
           <entry key="bkp" value="1" />
           <entry key="css" value="10" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="12" />
-          <entry key="js" value="3" />
+          <entry key="html" value="13" />
+          <entry key="js" value="4" />
           <entry key="json" value="3" />
           <entry key="md" value="4" />
-          <entry key="njk" value="40" />
+          <entry key="njk" value="44" />
           <entry key="nunjucks" value="1" />
           <entry key="png" value="4" />
-          <entry key="scss" value="2" />
+          <entry key="scss" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="10" />
-          <entry key="HTML" value="53" />
+          <entry key="HTML" value="58" />
           <entry key="Image" value="4" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="3" />
+          <entry key="JavaScript" value="4" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="SCSS" value="2" />
+          <entry key="SCSS" value="3" />
           <entry key="Vue.js" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="bkp" value="1" />
-          <entry key="css" value="1427" />
+          <entry key="css" value="1472" />
           <entry key="gitignore" value="44" />
           <entry key="html" value="925" />
           <entry key="js" value="237" />
           <entry key="md" value="109" />
-          <entry key="njk" value="1456" />
+          <entry key="njk" value="1742" />
           <entry key="nunjucks" value="6" />
           <entry key="scss" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1427" />
-          <entry key="HTML" value="2386" />
+          <entry key="CSS" value="1472" />
+          <entry key="HTML" value="2672" />
           <entry key="JavaScript" value="237" />
           <entry key="PLAIN_TEXT" value="46" />
           <entry key="SCSS" value="44" />
@@ -91,26 +93,59 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4753714">
+    <splitter split-orientation="horizontal" split-proportion="0.4551282">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/pages/routes.njk">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+                <state relative-caret-position="195">
+                  <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gulpfile.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="508">
+                  <caret line="108" column="22" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/static/scss/styles.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/templates/layout.njk">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/templates/partials/left-main.njk">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" column="63" lean-forward="true" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
-                  <folding>
-                    <element signature="e#958#964#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="30">
+                  <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/templates/macros/nav-macro.njk">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -118,27 +153,44 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/static/css/layout.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+                <state relative-caret-position="148">
+                  <caret line="186" column="17" lean-forward="true" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/pages/clients.njk">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/pages/about.njk">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+                <state relative-caret-position="337">
+                  <caret line="46" column="66" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
                   <folding>
                     <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#p#3;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#0;n#div#3;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -147,8 +199,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/pages/contact.njk">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+                <state relative-caret-position="210">
+                  <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -156,8 +208,21 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/pages/awards.njk">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+                <state relative-caret-position="165">
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/pages/partners.njk">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="279">
+                  <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -166,7 +231,7 @@
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="135">
-                  <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+                  <caret line="9" selection-start-line="9" selection-end-line="9" />
                 </state>
               </provider>
             </entry>
@@ -201,9 +266,12 @@
       <find>font-</find>
       <find>{% i 'macros/left-macro.njk' as leftmacro%}</find>
       <find>reach</find>
+      <find>style</find>
+      <find>styles.</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/pages</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -229,19 +297,19 @@
         <option value="$PROJECT_DIR$/app/static/scss/styles.scss" />
         <option value="$PROJECT_DIR$/dist/home.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/templates/macros/nav-macro.njk" />
-        <option value="$PROJECT_DIR$/app/templates/layout.njk" />
         <option value="$PROJECT_DIR$/app/templates/macros/left-macro.njk" />
         <option value="$PROJECT_DIR$/app/pages/partners.njk" />
         <option value="$PROJECT_DIR$/app/pages/home.njk" />
-        <option value="$PROJECT_DIR$/app/pages/clients.njk" />
-        <option value="$PROJECT_DIR$/app/pages/routes.njk" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/app/pages/about.njk" />
         <option value="$PROJECT_DIR$/app/pages/contact.njk" />
-        <option value="$PROJECT_DIR$/app/pages/awards.njk" />
         <option value="$PROJECT_DIR$/app/templates/partials/left-main.njk" />
+        <option value="$PROJECT_DIR$/app/pages/clients.njk" />
+        <option value="$PROJECT_DIR$/app/pages/awards.njk" />
+        <option value="$PROJECT_DIR$/app/templates/macros/nav-macro.njk" />
         <option value="$PROJECT_DIR$/app/static/css/layout.css" />
+        <option value="$PROJECT_DIR$/app/pages/routes.njk" />
+        <option value="$PROJECT_DIR$/app/pages/about.njk" />
+        <option value="$PROJECT_DIR$/app/templates/layout.njk" />
       </list>
     </option>
   </component>
@@ -259,9 +327,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
+    <option name="y" value="23" />
+    <option name="width" value="1436" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -271,7 +341,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,6 +352,27 @@
               <item name="initializr" type="b2602c69:ProjectViewProjectNode" />
               <item name="initializr" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initializr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initializr" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initializr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initializr" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="initializr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initializr" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="initializr" type="b2602c69:ProjectViewProjectNode" />
@@ -302,23 +392,11 @@
               <item name="initializr" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="initializr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="initializr" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="initializr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="initializr" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,17 +408,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/static/img" />
-      <recent name="$PROJECT_DIR$/app/static/img/clients" />
-      <recent name="$PROJECT_DIR$/app/static" />
-      <recent name="$PROJECT_DIR$/dist/static" />
-      <recent name="$PROJECT_DIR$/app/static/css/lib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/templates/macros" />
       <recent name="$PROJECT_DIR$/app/pages" />
       <recent name="$PROJECT_DIR$/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/static/img/clients/" />
+      <recent name="$PROJECT_DIR$/app/static/img" />
+      <recent name="$PROJECT_DIR$/app/static/img/clients" />
+      <recent name="$PROJECT_DIR$/app/static" />
+      <recent name="$PROJECT_DIR$/dist/static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -365,24 +443,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544094292221</updated>
-      <workItem from="1544094293653" duration="21141000" />
+      <workItem from="1544094293653" duration="21189000" />
+      <workItem from="1544257583141" duration="1503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21141000" />
+    <option name="totallyTimeSpent" value="22692000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="4" y="23" width="1436" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22762509" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22826855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -390,6 +465,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3477707" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -402,47 +481,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
-          <folding>
-            <element signature="e#154#261#0" />
-            <element signature="e#271#327#0" />
-            <element signature="e#336#436#0" />
-            <element signature="e#161#169#0" />
-            <element signature="e#210#225#0" />
-            <element signature="e#300#308#0" />
-            <element signature="e#756#779#0" />
-            <element signature="e#803#847#0" />
-            <element signature="e#953#1039#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding>
-            <element signature="e#1742#1748#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/css/normalize.css" />
+    <entry file="file://$PROJECT_DIR$/css/index.css" />
+    <entry file="file://$PROJECT_DIR$/static/css/index.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -457,16 +500,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/css/index.css.bkp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/css/index.css.bkp" />
+    <entry file="file://$PROJECT_DIR$/dist/static/index.html" />
     <entry file="file://$PROJECT_DIR$/node_modules/duplexify/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -474,34 +509,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/css/scss/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="69" column="6" lean-forward="true" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/partials/nav.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/css/scss/index.css" />
+    <entry file="file://$PROJECT_DIR$/app/index.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/partials/nav.njk" />
+    <entry file="file://$PROJECT_DIR$/dist/index.html" />
     <entry file="file://$PROJECT_DIR$/app/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-977" />
@@ -531,52 +542,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/scss/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/img/tile.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/img/tile-wide.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/img/tile.png" />
+    <entry file="file://$PROJECT_DIR$/app/static/img/tile-wide.png" />
     <entry file="file://$PROJECT_DIR$/app/static/img/clock.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="98" column="42" lean-forward="true" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/layout.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/macros/nav-macro.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/clients.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/home.njk">
       <provider selected="true" editor-type-id="text-editor">
@@ -592,72 +564,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/partners.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/static/img/routes.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/about.njk">
+    <entry file="file://$PROJECT_DIR$/app/partners.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/partners.njk">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="279">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/awards.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/contact.njk">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/awards.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/routes.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="210">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/partials/left-main.njk">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="63" lean-forward="true" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
-          <folding>
-            <element signature="e#958#964#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/macros/nav-macro.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="148">
+          <caret line="186" column="17" lean-forward="true" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/clients.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/about.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="46" column="66" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#3;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/routes.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="108" column="22" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/scss/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/layout.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
         </state>
       </provider>
     </entry>

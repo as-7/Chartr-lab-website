@@ -190,6 +190,13 @@ a {
 .about .elements {
     text-align: justify;
 }
+.about img {
+    padding: 10px;
+}
+
+.about .team p{
+    padding: 20px;
+}
 
 /* home */
 h1, h2, h3, h4, h5, h6 {
