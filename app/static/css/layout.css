@@ -29,7 +29,6 @@ a {
 .l1-left {
     position: fixed;
     left: 0;
-
     height: 100%;
     overflow: hidden;
     background-color: #FAFAFA;
@@ -60,6 +59,8 @@ a {
     margin-bottom: 80px;
     margin-top: 80px;
     font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .l1-left .reach-us {
@@ -207,10 +208,12 @@ h1, h2, h3, h4, h5, h6 {
 @media only screen and (max-width: 768px) {
     .l1-left {
         position: relative;
+
     }
 
     .l1-right {
         position: relative;
+        height: auto;
     }
 
     .home.main .content {

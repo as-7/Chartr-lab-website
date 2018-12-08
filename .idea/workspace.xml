@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d29b0ca-81bd-402f-8620-ecc57022f535" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/awards.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/awards.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/clients.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/clients.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/awards.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/awards.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/partners.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/partners.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/layout.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/layout.njk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/layout.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -92,26 +84,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="css" value="10" />
           <entry key="js" value="1" />
           <entry key="njk" value="188" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="CSS" value="10" />
           <entry key="HTML" value="188" />
           <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
+          <entry key="css" value="2" />
           <entry key="js" value="1" />
           <entry key="njk" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="2" />
           <entry key="HTML" value="7" />
           <entry key="JavaScript" value="1" />
         </counts>
@@ -120,6 +114,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/static/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -161,11 +164,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/layout.njk">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            <state relative-caret-position="39">
+              <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -215,7 +218,6 @@
       <find>watch</find>
       <find>sass</find>
       <find>h1,</find>
-      <find>info</find>
       <find>16px</find>
       <find>font-</find>
       <find>{% i 'macros/left-macro.njk' as leftmacro%}</find>
@@ -224,6 +226,7 @@
       <find>styles.</find>
       <find>fonts</find>
       <find>font</find>
+      <find>info</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/pages</dir>
@@ -257,7 +260,6 @@
         <option value="$PROJECT_DIR$/app/pages/home.njk" />
         <option value="$PROJECT_DIR$/app/pages/contact.njk" />
         <option value="$PROJECT_DIR$/app/templates/macros/nav-macro.njk" />
-        <option value="$PROJECT_DIR$/app/static/css/layout.css" />
         <option value="$PROJECT_DIR$/app/pages/routes.njk" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
@@ -266,6 +268,7 @@
         <option value="$PROJECT_DIR$/app/pages/about.njk" />
         <option value="$PROJECT_DIR$/app/pages/clients.njk" />
         <option value="$PROJECT_DIR$/app/templates/layout.njk" />
+        <option value="$PROJECT_DIR$/app/static/css/layout.css" />
       </list>
     </option>
   </component>
@@ -394,12 +397,12 @@
       <updated>1544094292221</updated>
       <workItem from="1544094293653" duration="21189000" />
       <workItem from="1544257583141" duration="2860000" />
-      <workItem from="1544288430224" duration="2668000" />
+      <workItem from="1544288430224" duration="3060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26717000" />
+    <option name="totallyTimeSpent" value="27109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -562,13 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2539">
-          <caret line="186" column="17" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/macros/nav-macro.njk">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -627,8 +623,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/layout.njk">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        <state relative-caret-position="39">
+          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
         </state>
       </provider>
     </entry>
