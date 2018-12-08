@@ -19,15 +19,16 @@
 <body>
 
 
-<div class="col-md-5 l1-left">
-    {% block left %}{% endblock %}
-</div>
-
-<div class="col-md-7 l1-right">
-
+<div class="col-md-7 l1-right col-md-push-5">
     <!-- Right Block Content-->
     {% block content %} {% endblock %}
 </div>
+
+
+<div class="col-md-5 l1-left col-md-pull-7">
+    {% block left %}{% endblock %}
+</div>
+
 
 <!--build:js static/js/main.min.js -->
 <script src="static/js/lib/jquery.min.js"></script>
