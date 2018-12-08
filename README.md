@@ -7,3 +7,7 @@ Ref:
 - design inspiration: https://fontpair.co/pairing/rubik-and-karla
 - templating - https://mozilla.github.io/nunjucks/templating.html
 - grayscale - https://pinetools.com/grayscale-image
+
+
+Old Links
+- traffickarma.iiitd.edu.in:9000/chartr/trips
