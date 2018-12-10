@@ -111,6 +111,11 @@ a {
     text-align: center;
 }
 
+.home .yt_video{
+    /*min-width: 80%;*/
+    /*height: auto;*/
+}
+
 .title {
     padding: 12px;
     margin-bottom: 40px;
@@ -245,5 +250,10 @@ h1, h2, h3, h4, h5, h6 {
 
     .home.main .content {
         text-align: center;
+    }
+
+    .home .yt_video {
+        width: auto;
+        height: auto;
     }
 }
