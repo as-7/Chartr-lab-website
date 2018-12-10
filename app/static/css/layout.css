@@ -13,6 +13,7 @@ p, a, div {
     font-size: 18px;
 
 }
+
 a {
     text-decoration: none;
 }
@@ -144,7 +145,8 @@ a {
     overflow: hidden;
 
 }
-.l1-left{
+
+.l1-left {
     padding: 0;
 }
 
@@ -162,7 +164,7 @@ a {
     opacity: 0.5;
 }
 
-.clients .l3{
+.clients .l3 {
     padding-bottom: 36px;
     padding-top: 36px;
 }
@@ -170,10 +172,12 @@ a {
 .partners img {
     width: 140px
 }
-.partners .l3{
+
+.partners .l3 {
     padding-bottom: 36px;
     padding-top: 36px;
 }
+
 .img-light {
     opacity: 0.5;
 }
@@ -181,22 +185,44 @@ a {
 .img-light-7 {
     opacity: 0.7;
 }
+
 .img-light-8 {
     opacity: 0.8;
 }
+
 .img-light-9 {
     opacity: 0.9;
 }
 
+.press img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    width: 160px;
+    padding: 20px;
+}
+
+.press img.bggrey {
+    background: grey;
+}
+.press .l3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.press .l3 p {
+    padding: 20px;
+
+}
 .about .elements {
     text-align: justify;
 }
+
 .about img {
     padding: 10px;
     height: 160px;
 }
 
-.about .team p{
+.about .team p {
     padding: 20px;
 }
 
