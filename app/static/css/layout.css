@@ -18,6 +18,12 @@ a {
     text-decoration: none;
 }
 
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+    color: inherit !important;
+    background-color: inherit !important;
+    font-weight: 700;
+}
+
 .reach-us a {
     text-decoration: none;
     color: #fff;
@@ -111,7 +117,7 @@ a {
     text-align: center;
 }
 
-.home .yt_video{
+.home .yt_video {
     /*min-width: 80%;*/
     /*height: auto;*/
 }
@@ -209,6 +215,7 @@ a {
 .press img.bggrey {
     background: grey;
 }
+
 .press .l3 {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -218,6 +225,7 @@ a {
     padding: 20px;
 
 }
+
 .about .elements {
     text-align: justify;
 }
