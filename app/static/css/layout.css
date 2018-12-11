@@ -250,12 +250,15 @@ h1, h2, h3, h4, h5, h6 {
         position: relative;
 
     }
-
     .l1-right {
         position: relative;
         height: auto;
     }
 
+    .nav li {
+        width: 100%;
+        text-align: center;
+    }
     .home.main .content {
         text-align: center;
     }
