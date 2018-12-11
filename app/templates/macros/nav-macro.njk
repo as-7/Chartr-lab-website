@@ -15,8 +15,8 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="{%if activePage == 'home' %} active {% endif %}"><a href="/">Home</a></li>
-                <li class="dropdown">
+                <li class="col-xs-12 {%if activePage == 'home' %} active {% endif %}"><a href="/">Home</a></li>
+                <li class="col-xs-12 dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Routes <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li class="{%if activePage == 'routes' %} active {% endif %}"><a href="/routes">Routes</a></li>
@@ -24,11 +24,11 @@
                         <li class="{%if activePage == 'bus-on-demand' %} active {% endif %}"><a href="/bus-on-demand">Bus on Demand</a></li>
                     </ul>
                 </li>
-                <li class="{%if activePage == 'clients' %} active {% endif %}"><a href="clients">Clients</a></li>
-                <li class="{%if activePage == 'partners' %} active {% endif %}"><a href="/partners">Partners</a></li>
-                <li class="{%if activePage == 'awards' %} active {% endif %}"><a href="/awards">Awards</a></li>
-                <li class="{%if activePage == 'press' %} active {% endif %}"><a href="/press">Press</a></li>
-                <li class="{%if activePage == 'about' %} active {% endif %}"><a href="/about">About</a></li>
+                <li class="col-xs-12 {%if activePage == 'clients' %} active {% endif %}"><a href="clients">Clients</a></li>
+                <li class="col-xs-12 {%if activePage == 'partners' %} active {% endif %}"><a href="/partners">Partners</a></li>
+                <li class="col-xs-12 {%if activePage == 'awards' %} active {% endif %}"><a href="/awards">Awards</a></li>
+                <li class="col-xs-12 {%if activePage == 'press' %} active {% endif %}"><a href="/press">Press</a></li>
+                <li class="col-xs-12 {%if activePage == 'about' %} active {% endif %}"><a href="/about">About</a></li>
                 <!--<li class="{%if activePage == 'contact' %} active {% endif %}"><a href="/contact">Contact</a></li>-->
                 <li></li>
             </ul>
