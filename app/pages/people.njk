@@ -1,0 +1,30 @@
+{% extends "layout.njk" %}
+
+
+{% block left %}
+{% include "partials/left-main.njk" %}
+{% endblock %}
+
+{% block content %}
+
+<!-- Creating the navigation with activePage = 'home' -->
+{% import 'macros/nav-macro.njk' as nav %}
+
+{{nav.active('people')}}
+
+<div class="home main l2">
+    <div class="col-md-8 col-md-offset-2 text-justify">
+        <h1 class="title">People</h1>
+        <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-12 l3 text-justify" style="margin-top: 20px">
+                <p>We are working with various RWAs to provide flexible, economic and comfortable
+                    rides to the residents around the city.</p>
+
+                <p style="margin-top:40px;">If you are a member of your Residents Welfare Association (RWA) and want us to
+                    provide services in your area, please get in message us at <a class="color_href" href="mailto:hello@chartr.in">hello@chartr.in</a>.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

@@ -11,3 +11,19 @@ Ref:
 
 Old Links
 - traffickarma.iiitd.edu.in:9000/chartr/trips
+
+
+#### How To Run?
+
+- gulp watch
+
+    - (note: it doesn't do build)
+
+    - it starts a server for testing
+
+
+- when ready, do `gulp build`
+
+    - this will build nunjucks files into static html and files (css, html, js etc.) to /dist folder
+
+
