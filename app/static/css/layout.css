@@ -33,6 +33,11 @@ a {
     font-weight: 700;
 }
 
+label {
+    background-color: #a5a2a24d !important;
+    color: black !important;
+}
+
 .l1-left {
     position: fixed;
     left: 0;
@@ -74,6 +79,9 @@ a {
     background-color: #0A14C5;
     color: #fff;
     font-size: 18px;
+    border: none;
+    margin-bottom: 30px;
+
 }
 
 .l1-left footer {
@@ -180,6 +188,10 @@ a {
     padding-top: 36px;
 }
 
+.privacy_policy {
+    text-align: left;
+}
+
 .partners img {
     width: 140px
 }
@@ -245,15 +257,16 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Rubik', sans-serif;
 }
 
-.color_href  {
+.color_href {
     color: #0A14C5;
 }
 
 @media only screen and (max-width: 768px) {
     .l1-left {
         position: relative;
-
+        height: 150%;
     }
+
     .l1-right {
         position: relative;
         height: auto;
@@ -263,12 +276,24 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%;
         text-align: center;
     }
+
     .home.main .content {
         text-align: center;
     }
 
+    .inner {
+        margin-left: auto;
+        margin-right: auto;
+        width: initial;
+        /*whatever width you want*/
+    }
+
     .home .yt_video {
-        width: auto;
+        width: 100% !important;
         height: auto;
+    }
+
+    .title {
+        font-size: 42px;
     }
 }

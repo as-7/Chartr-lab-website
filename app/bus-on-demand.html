@@ -9,7 +9,6 @@
     <link rel="apple-touch-icon" href="static/img/apple-touch-icon.png">
     <link rel="icon" href="static/img/favicon.png" type="image/png" sizes="16x16">
     <base href="/">
-
     <!--build:css static/css/main.min.css-->
     <!--<link href="https://fonts.googleapis.com/css?family=Rubik,Karla" rel="stylesheet">-->
     <link rel="stylesheet" href="static/css/lib/normalize.css">
@@ -50,8 +49,6 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Routes <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li class=""><a href="/routes">Current Routes</a></li>
-                        <li class=""><a href="/ask-for-routes">Ask for Routes</a></li>
-                        <li class=" active "><a href="/bus-on-demand">Bus on Demand</a></li>
                         <li class="divider"></li>
 
                     </ul>
@@ -83,20 +80,98 @@
 
 </div>
 
-
 <div class="col-md-5 l1-left col-md-pull-7">
     
 
 <img class="map" src="static/img/left-map.png">
 
 </div>
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Please fill the following form</h4>
+            </div>
+            <div class="modal-body col-md-12">
 
+                <form method="POST" action="/form/" class="form-group col-md-12" id="my_form">
+                    <!-- INSERT CSRF TOKEN -->
+                    <input type="text" required="" name="createdBy" autocomplete="off" style="display: none"
+                           value="admin">
+                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                        <label style="font-weight: 500">Name<span style="color: red">*</span></label>
+                        <input required="" type="text" class="form-control" placeholder="name" autocomplete="off"
+                               name="name">
+                    </div>
+                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                        <label style="font-weight: 500">Contact Number<span style="color: red">*</span></label>
+                        <input type="number" class="form-control" autocomplete="off" placeholder="98XXXXXXXX"
+                               name="contact">
+                    </div>
+                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                        <label style="font-weight: 500">Home Address<span style="color: red">*</span></label>
+                        <input required="" class="form-control" id="autocomplete1" autocomplete="false"
+                               placeholder="start typing..."
+                               type="text" name="address1">
+                    </div>
+                    <div style="display: none">
+                        <input required="" id="lat1" type="text" name="lat1">
+                        <input required="" id="lng1" type="text" name="lng1">
+                    </div>
+
+                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                        <label style="font-weight: 500">Work Address<span style="color: red">*</span></label>
+                        <input required="" class="form-control" autocomplete="false" id="autocomplete2"
+                               placeholder="start typing..."
+                               type="text" name="address2">
+                    </div>
+
+                    <div id="workName" class="form-group col-md-6 col-sm-6 col-xs-12">
+                        <label style="font-weight: 500">Company Name (optional)</label>
+                        <input class="form-control" autocomplete="off"
+                               placeholder="company name"
+                               type="text" name="company_name">
+                    </div>
+
+                    <div style="display: none">
+                        <input required="" id="lat2" type="text" name="lat2">
+                        <input required="" id="lng2" type="text" name="lng2">
+                    </div>
+                    <div class="form-group col-md-6 col-sm-6 col-xs-12 ">
+                        <label style="font-weight: 500">Office Timings<span style="color: red">*</span></label>
+                        <div class="row" style="margin-left: 0px">
+                            <div class="form-group">
+                                <label class="label-default">From</label>
+                                <input type="time" class="form-control" value="09:00" name="fromTime">
+                            </div>
+                            <div class="form-group">
+                                <label class="label-default">Till</label>
+                                <input type="time" class="form-control" value="17:00" name="toTime">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                        <button class="btn btn-success" type="submit">Submit</button>
+                    </div>
+
+                </form>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
 
 <!--build:js static/js/main.min.js -->
 <script src="static/js/lib/jquery.min.js"></script>
-<script src="static/js/lib/bootstrap.min.js"></script>
-
-<!-- endbuild -->
+<script src="static/js/lib/bootstrap.min.js"></script><!-- endbuild -->
 
 
 </body>
