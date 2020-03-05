@@ -1,0 +1,91 @@
+{% extends "layout.njk" %}
+
+{% block left %}
+{% include "partials/left-main.njk" %}
+{% endblock %}
+
+{% block content %}
+
+<!-- Creating the navigation with activePage = 'projects' -->
+{% import 'macros/nav-macro.njk' as nav %}
+
+{{nav.active('projects')}}
+
+<div class="home main l2">
+    <div class="col-md-10 col-md-offset-1 l3 text-center">
+        <div class="col-md-5 img-box">
+            <img src="static/img/data_trust.png"/>
+        </div>
+        <div class="col-md-7 content">
+            Data Trust
+        </div>
+    </div>
+    <div class="col-md-10 col-md-offset-1 l3">
+        <div class="col-md-5 img-box">
+            <img src="static/img/breakdown.png"/>
+        </div>
+        <div class="col-md-7 content">PCRA breakdown</div>
+    </div>
+    <div class="col-md-10 col-md-offset-1 l3">
+        <div class="col-md-5 img-box">
+            <img src="static/img/opendata.png"/>
+        </div>
+        <div class="col-md-7 content">Open Data</div>
+    </div>
+
+	<div class="col-md-10 col-md-offset-1 l3 text-center">
+        <div class="col-md-5 img-box">
+            <img src="static/img/lastmile.png"/>
+        </div>
+        <div class="col-md-7 content">
+            Last mile
+        </div>
+    </div>
+
+	<div class="col-md-10 col-md-offset-1 l3 text-center">
+        <div class="col-md-5 img-box">
+            <img src="static/img/airquality_2.png"/>
+        </div>
+        <div class="col-md-7 content">
+            DST Air Quality
+        </div>
+    </div>
+
+	<div class="col-md-10 col-md-offset-1 l3 text-center">
+        <div class="col-md-5 img-box">
+            <img src="static/img/airquality_1.png"/>
+        </div>
+        <div class="col-md-7 content">
+            Imprint Moving Air Quality
+        </div>
+    </div>
+
+	<div class="col-md-10 col-md-offset-1 l3 text-center">
+        <div class="col-md-5 img-box">
+            <img src="static/img/congestion.png"/>
+        </div>
+        <div class="col-md-7 content">
+            Bangalore Conngestion 
+        </div>
+    </div>
+
+	<div class="col-md-10 col-md-offset-1 l3 text-center">
+        <div class="col-md-5 img-box">
+            <img src="static/img/route.png"/>
+        </div>
+        <div class="col-md-7 content">
+            Yatra 
+        </div>
+    </div>
+
+	<div class="col-md-10 col-md-offset-1 l3 text-center">
+        <div class="col-md-5 img-box">
+            <img src="static/img/analysis.png"/>
+        </div>
+        <div class="col-md-7 content">
+            DIMTS analysis tool 
+        </div>
+    </div>
+</div>
+
+{% endblock %}

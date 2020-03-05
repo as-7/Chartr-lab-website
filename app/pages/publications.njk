@@ -1,0 +1,72 @@
+{% extends "layout.njk" %}
+
+{% block left %}
+{% include "partials/left-main.njk" %}
+{% endblock %}
+
+{% block content %}
+
+<!-- Creating the navigation with activePage = 'publications' -->
+{% import 'macros/nav-macro.njk' as nav %}
+
+{{nav.active('publications')}}
+
+<div class="home main l2">
+    <div class="col-md-8 col-md-offset-2">
+        <h1 class="title">Our Publications</h1>
+    </div>
+    <div class="col-md-10 col-md-offset-1 l3 text-center">
+        <div class="col-md-5 img-box">
+	<a href="https://dblp.org/rec/journals/tcom/RajB19">
+            <img src="static/img/book.png"/>
+        </div>
+        <div class="col-md-7 content">
+            <p>Weighted-A* Based Energy Efficient Resource Allocation in G.Fast.</p>
+        </div>
+    </div>
+    <div class="col-md-10 col-md-offset-1 l3">
+        <div class="col-md-5 img-box">
+	<a href="https://dblp.org/rec/conf/icassp/CharulBBR19">
+            <img src="static/img/book.png"/>
+        </div>
+        <div class="col-md-7 content">Online Variational Bayesian Subspace Filtering.</div>
+    </div>
+    <div class="col-md-10 col-md-offset-1 l3">
+        <div class="col-md-5 img-box">
+	<a href="">
+            <img src="static/img/book.png"/>
+        </div>
+        <div class="col-md-7 content">Improved Real Time Ride Sharing via Graph Coloring.</div>
+    </div>
+
+
+
+        <div class="col-md-10 col-md-offset-1 l3 text-center">
+        <div class="col-md-5 img-box">
+	<a href="https://dblp.org/rec/conf/itsc/PaliwalB19">
+            <img src="static/img/book.png"/>
+        </div>
+        <div class="col-md-7 content">
+            <p>To each route its own ETA: A generative modeling framework for ETA prediction.</p>
+        </div>
+    </div>
+    <div class="col-md-10 col-md-offset-1 l3">
+        <div class="col-md-5 img-box">
+	<a href="https://dblp.org/rec/journals/corr/abs-1910-08903">
+            <img src="static/img/book.png"/>
+        </div>
+        <div class="col-md-7 content">Benchmark Dataset for Timetable Optimization of Bus Routes in the City of New Delhi.</div>
+    </div>
+    <div class="col-md-10 col-md-offset-1 l3">
+        <div class="col-md-5 img-box">
+	<a href="https://dblp.org/rec/journals/tcom/AhujaBP18">
+            <img src="static/img/book.png"/>
+        </div>
+        <div class="col-md-7 content" style="padding-top: 20px">Low Complexity Training Methods for Common Mode Aided Cancellation of Intermittent Alien Noise in Downstream VDSL.</div>
+    </div>
+
+	
+        
+
+</div>
+{% endblock %}
